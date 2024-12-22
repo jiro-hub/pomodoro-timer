@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
+.app-container {
+    text-align: center;
+    margin: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.timer-controls {
+    margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.timer-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.time-selector,
+.break-selector {
+    margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+    .time-selector input,
+    .break-selector select {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+/* Session History Section */
+.session-history {
+    margin-top: 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .session-history h3 {
+        margin-bottom: 10px;
+        font-size: 18px;
+    }
+
+    .session-history ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .session-history li {
+        margin: 5px 0;
+        font-size: 14px;
+        border-bottom: 1px solid #eaeaea;
+        padding-bottom: 5px;
+        color: #555;
+    }
+
+        .session-history li:last-child {
+            border-bottom: none;
+        }
+
+/* History Container */
+.history-container {
+    margin-top: 30px;
+    padding: 10px;
+    border-top: 1px solid #ccc;
 }
+
+    .history-container h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .history-container ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .history-container li {
+        margin: 5px 0;
+        font-size: 14px;
+        color: #555;
+    }
+
+/* Toggle History Button Styles */
+.toggle-history-btn {
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .toggle-history-btn:hover {
+        background-color: #e67e22;
+    }

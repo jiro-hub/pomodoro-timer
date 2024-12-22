@@ -36761,4 +36761,8 @@
     <TypeScriptCompile Include="src\clientapp\node_modules\yocto-queue\index.d.ts" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="clientapp\" />
+  </ItemGroup>
+
 </Project>

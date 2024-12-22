@@ -1,0 +1,41 @@
+﻿.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.popup-box {
+    background: #f3e8ff; /* Very light pastel purple background */
+    border-radius: 15px;
+    padding: 20px 30px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    font-family: 'Arial', sans-serif;
+}
+
+    .popup-box p {
+        font-size: 18px;
+        color: #5e4b8b; /* Muted dark purple for readability */
+        margin-bottom: 15px;
+    }
+
+    .popup-box button {
+        background: #c9a3ff; /* Soft lavender button */
+        border: none;
+        padding: 8px 16px;
+        font-size: 16px;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+        .popup-box button:hover {
+            background: #b388ff; /* Slightly deeper pastel purple on hover */
+        }
